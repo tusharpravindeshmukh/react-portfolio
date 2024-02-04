@@ -12,6 +12,7 @@ function Blog() {
       }}
     >
       <div
+      className="titles"
         style={{
           height: "auto",
           width: "100%",

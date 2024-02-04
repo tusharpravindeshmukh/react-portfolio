@@ -223,7 +223,7 @@ function App() {
         {/* <Blog/> */}
 
         <Routes>
-          <Route path="/" element={<Default />} />
+          <Route path="/react-portfolio" element={<Default />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/work" element={<Work />} />

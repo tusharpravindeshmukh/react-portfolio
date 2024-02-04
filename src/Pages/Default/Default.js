@@ -12,21 +12,9 @@ function Default() {
       }}
     >
       <header
+        className="main-title"
         style={{
-          placeContent: "center",
-          alignItems: "center",
-          display: "flex",
-          flex: "0 0 auto",
-          flexFlow: "column",
-          gap: "0px",
-          height: "auto",
-          overflow: "hidden",
-          //   position: "absolute",
-          width: "100%",
-          zIndex: "5",
-          top: "0",
-          left: "0",
-          overflow: "hidden",
+          
         }}
       >
         <div
@@ -183,7 +171,7 @@ function Default() {
           Software developer focussing
         </div>
         <div style={{ color: "white", fontSize: "32px" }}>
-          on crafting React applications,
+          on crafting <span style={{color: "rgb(99, 102, 241)", fontSize:"32px"}}>React</span> applications,
         </div>
         <div style={{ color: "white", fontSize: "32px" }}>
           dashboards & websites.

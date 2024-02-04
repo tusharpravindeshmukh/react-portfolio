@@ -279,11 +279,11 @@ body {
 }
 
 .testimonial-list {
-  animation: 50s verticalmarquee linear infinite alternate;
+  animation: 40s verticalmarquee linear infinite alternate;
 }
 
 .testimonial-listh {
-  animation: 50s reverseverticalmarquee linear infinite alternate;
+  animation: 40s reverseverticalmarquee linear infinite alternate;
 }
 
 .testimonial-list:hover {
@@ -403,5 +403,49 @@ body {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.titles {
+  animation: 2s entry ease-in;
+  font-size: 120px;
+}
+
+@keyframes entry {
+  0% {
+    transform: translateY(15%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.main-title {
+  animation: 2s mainentry ease-in;
+  
+  place-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  gap: 0px;
+  height: auto;
+  overflow: hidden;
+
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+@keyframes mainentry {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

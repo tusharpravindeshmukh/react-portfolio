@@ -12,6 +12,7 @@ function Resources() {
       }}
     >
       <div
+      className="titles"
         style={{
           height: "auto",
           width: "100%",
