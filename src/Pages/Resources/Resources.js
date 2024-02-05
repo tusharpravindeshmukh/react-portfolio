@@ -26,7 +26,8 @@ function Resources() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           Resources
         </div>
-        <div style={{ fontSize: "120px" }}>Technologies I am proficient in</div>
+        <div style={{ fontSize: "120px" }}>technologies I am</div>
+        <div style={{fontSize:"120px"}}>proficient in</div>
       </div>
       <div
         style={{
