@@ -224,6 +224,7 @@ function Default() {
         }}
       >
         <div
+        className="testimonials-label"
           style={{
             padding: "0px 80px",
             display: "flex",
