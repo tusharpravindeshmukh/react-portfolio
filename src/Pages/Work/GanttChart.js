@@ -1,5 +1,5 @@
 import React from "react";
-// import gantt from "../../assets/gantt.png";
+import gantt from "../../assets/gantt.png";
 
 function GanttChart() {
   return (
@@ -60,7 +60,7 @@ function GanttChart() {
             alignItems: "center",
           }}
         >
-          {/* <img height="100%" width="100%" src={gantt} alt="" /> */}
+           <img style={{borderRadius:"24px"}} height="100%" width="100%" src={gantt} alt="" /> 
           <div
             style={{
               position: "absolute",
