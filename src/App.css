@@ -487,6 +487,21 @@ body {
 .main-navbar{
   display: flex;
 }
+
+.main-text{
+  color: white;
+  font-size: 200px;
+}
+
+.testimonials-label{
+  height: 100%;
+  width: 30%;
+}
+
+.testimonials-main{
+  height: 100%;
+  width: 70%;
+}
 @media only screen and (max-width: 900px) {
   .hamburger{
     display: flex;
@@ -499,6 +514,21 @@ body {
   }
   .main-navbar{
     opacity: 0;
+  }
+
+  .main-text{
+    font-size: 80px;
+  }
+  .testimonials-wrapper{
+    flex-direction: column;
+  }
+  .testimonials-label{
+    height: auto;
+    width: 100%;
+  }
+  .testimonials-main{
+    height: auto;
+    width: 100%;
   }
 
 }

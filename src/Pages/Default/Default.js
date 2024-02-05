@@ -59,8 +59,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -74,8 +74,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -89,8 +89,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -104,8 +104,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -119,8 +119,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -134,8 +134,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li style={{ color: "white", fontSize: "200px" }}>Tushar</li>
-                  <li style={{ color: "white", fontSize: "200px" }}>
+                  <li className="main-text" >Tushar</li>
+                  <li className="main-text" >
                     Deshmukh
                   </li>
                   <li
@@ -238,12 +238,13 @@ function Default() {
           backgroundColor: "black",
           paddingTop: "80px",
           paddingBottom: "80px",
+          flexWrap:"wrap"
         }}
       >
         <div
+         className="testimonials-label"
           style={{
-            height: "100%",
-            width: "30%",
+            
             padding: "0px 80px",
             display: "flex",
             flexDirection: "column",
@@ -257,9 +258,9 @@ function Default() {
           <span style={{ fontSize: "80px", color: "white" }}>words</span>
         </div>
         <div
+          className="testimonials-main"
           style={{
-            height: "100%",
-            width: "70%",
+           
             position: "relative",
             display: "flex",
             gap: "40px",
