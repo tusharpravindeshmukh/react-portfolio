@@ -111,7 +111,7 @@ function App() {
               width: "min-content",
             }}
           >
-          <Link to={"/"}>
+          <Link to={"/react-portfolio"}>
             <div
               style={{
                 flex: "none",
