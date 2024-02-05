@@ -11,12 +11,7 @@ function Default() {
         backgroundColor: "transparent",
       }}
     >
-      <header
-        className="main-title"
-        style={{
-          
-        }}
-      >
+      <header className="main-title" style={{}}>
         <div
           style={{
             flex: "0 0 auto",
@@ -59,10 +54,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -74,10 +67,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -89,10 +80,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -104,10 +93,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -119,10 +106,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -134,10 +119,8 @@ function Default() {
                   >
                     <Star />
                   </li>
-                  <li className="main-text" >Tushar</li>
-                  <li className="main-text" >
-                    Deshmukh
-                  </li>
+                  <li className="main-text">Tushar</li>
+                  <li className="main-text">Deshmukh</li>
                   <li
                     style={{
                       color: "white",
@@ -171,7 +154,11 @@ function Default() {
           Software developer focussing
         </div>
         <div style={{ color: "white", fontSize: "32px" }}>
-          on crafting <span style={{color: "rgb(99, 102, 241)", fontSize:"32px"}}>React</span> applications,
+          on crafting{" "}
+          <span style={{ color: "rgb(99, 102, 241)", fontSize: "32px" }}>
+            React
+          </span>{" "}
+          applications,
         </div>
         <div style={{ color: "white", fontSize: "32px" }}>
           dashboards & websites.
@@ -224,27 +211,20 @@ function Default() {
           ></div>
         </div>
       </div>
-      
 
-
-
- {/* Testimonials section */}
+      {/* Testimonials section */}
       <div
         className="testimonials-wrapper"
         style={{
-          height: "800px",
           width: "100%",
           display: "flex",
           backgroundColor: "black",
           paddingTop: "80px",
           paddingBottom: "80px",
-          flexWrap:"wrap"
         }}
       >
         <div
-         className="testimonials-label"
           style={{
-            
             padding: "0px 80px",
             display: "flex",
             flexDirection: "column",
@@ -260,7 +240,6 @@ function Default() {
         <div
           className="testimonials-main"
           style={{
-           
             position: "relative",
             display: "flex",
             gap: "40px",

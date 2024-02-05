@@ -130,6 +130,7 @@ function App() {
               position: "absolute",
               width: "min-content",
             }}
+            onClick={() => setMenu(false)}
           >
             <Link to={"/react-portfolio"}>
               <div
@@ -255,6 +256,9 @@ function App() {
           >
             <Link to="/resources" style={{textDecoration:"none"}}>
               <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Resources</div>
+            </Link>
+            <Link to="/work" style={{textDecoration:"none"}}>
+              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Work</div>
             </Link>
             <Link to="/blog" style={{textDecoration:"none"}}>
               <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Blog</div>

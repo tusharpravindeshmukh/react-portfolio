@@ -423,7 +423,7 @@ body {
 
 .main-title {
   animation: 2s mainentry ease-in;
-  
+
   place-content: center;
   align-items: center;
   display: flex;
@@ -450,7 +450,7 @@ body {
   }
 }
 
-.gantt{
+.gantt {
   width: 450px;
   height: 350px;
   position: relative;
@@ -462,73 +462,76 @@ body {
   border-radius: 24px;
   transition: all 5s cubic-bezier(0.15, 0.83, 0.66, 1);
   cursor: pointer;
-  transform: perspective(1200px) translateX(0px) translateY(0px) scale(1) rotate(0deg) rotateX(20deg) rotateY(0deg) translateZ(0px);
+  transform: perspective(1200px) translateX(0px) translateY(0px) scale(1)
+    rotate(0deg) rotateX(20deg) rotateY(0deg) translateZ(0px);
   transform-style: preserve-3d;
 }
 
-.gantt:hover{
-  transform: perspective(1200px) translateX(0px) translateY(0px) scale(1.08) rotate(0deg) rotateX(15deg) rotateY(0deg) translateZ(0px);
+.gantt:hover {
+  transform: perspective(1200px) translateX(0px) translateY(0px) scale(1.08)
+    rotate(0deg) rotateX(15deg) rotateY(0deg) translateZ(0px);
 
   animation: 1s transform ease-in-out;
 }
 
-
-.hamburger{
+.hamburger {
   display: none;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
 
-.contact-button{
+.contact-button {
   display: flex;
 }
-.main-navbar{
+.main-navbar {
   display: flex;
 }
 
-.main-text{
+.main-text {
   color: white;
   font-size: 200px;
 }
-
-.testimonials-label{
+.testimonials-wrapper {
+  height: 800px;
+}
+.testimonials-label {
   height: 100%;
   width: 30%;
 }
 
-.testimonials-main{
+.testimonials-main {
   height: 100%;
   width: 70%;
 }
 @media only screen and (max-width: 900px) {
-  .hamburger{
+  .hamburger {
     display: flex;
   }
-  .hamburger-menu{
+  .hamburger-menu {
     display: flex;
   }
-  .contact-button{
+  .contact-button {
     display: none;
   }
-  .main-navbar{
+  .main-navbar {
     opacity: 0;
   }
 
-  .main-text{
+  .main-text {
     font-size: 80px;
   }
-  .testimonials-wrapper{
+  .testimonials-wrapper {
+    height: auto;
     flex-direction: column;
   }
-  .testimonials-label{
+  .testimonials-label {
     height: auto;
     width: 100%;
   }
-  .testimonials-main{
-    height: auto;
+  .testimonials-main {
+    height: 600px;
     width: 100%;
   }
-
 }
