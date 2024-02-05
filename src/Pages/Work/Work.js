@@ -28,9 +28,9 @@ function Work() {
         <div style={{ fontSize: "120px" }}>Let me show</div>
         <div style={{ fontSize: "120px" }}>you</div>
       </div>
-      <div style={{ display:"flex", flexWrap:"wrap", gap:"80px", justifyContent:"center", height:"max-content", width:"100%", padding:"160px 0px",backgroundColor:"black"}}>
+      <div style={{ display:"flex", flexWrap:"wrap", gap:"80px", justifyContent:"center", height:"max-content", width:"100%", padding:"160px 15px",backgroundColor:"black",boxSizing:"border-box"}}>
         <Link to='/work/ganttchart' onClick={() => window.scrollTo(0,0)}>
-        <div class="card-work">
+        <div class="card-work" >
         
         </div>
         </Link>
