@@ -30,10 +30,11 @@ function Contact() {
           display: "flex",
           height: "max-content",
           width: "100%",
-          padding: "160px 300px",
+          padding: "160px 0px 0px 21%",
           flexDirection: "column",
           gap: "80px",
-          backgroundColor:"black"
+          backgroundColor:"black",
+          boxSizing:"border-box"
         }}
       >
         <div style={{ color: "white", height: "auto", width: "100%" }}>
