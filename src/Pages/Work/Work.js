@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 function Work() {
   return (
@@ -28,9 +29,11 @@ function Work() {
         <div style={{ fontSize: "120px" }}>you</div>
       </div>
       <div style={{ display:"flex", flexWrap:"wrap", gap:"80px", justifyContent:"center", height:"max-content", width:"100%", padding:"160px 0px",backgroundColor:"black"}}>
+        <Link to='/work/ganttchart' onClick={() => window.scrollTo(0,0)}>
         <div class="card-work">
         
         </div>
+        </Link>
 
         <div class="card-work">
     

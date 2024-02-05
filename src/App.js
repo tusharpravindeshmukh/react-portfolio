@@ -9,6 +9,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Resources from "./Pages/Resources/Resources";
 import { Routes, Route, Link } from "react-router-dom";
+import GanttChart from "./Pages/Work/GanttChart"
 
 function App() {
   React.useEffect(() => {
@@ -229,6 +230,7 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/resources" element={<Resources/>} />
+          <Route path="/work/ganttchart" element={<GanttChart/>} />
         </Routes>
       </div>
 
