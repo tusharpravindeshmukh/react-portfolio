@@ -10,6 +10,8 @@ import Contact from "./Pages/Contact/Contact";
 import Resources from "./Pages/Resources/Resources";
 import { Routes, Route, Link } from "react-router-dom";
 import GanttChart from "./Pages/Work/GanttChart";
+import Calendar from "./Pages/Work/Calendar";
+import CPortal from "./Pages/Work/CPortal";
 
 const MenuIcon = () => {
   return (
@@ -304,6 +306,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/work/ganttchart" element={<GanttChart />} />
+          <Route path="/work/calendar" element={<Calendar />} />
+          <Route path="/work/portal" element={<CPortal />} />
         </Routes>
       </div>
 

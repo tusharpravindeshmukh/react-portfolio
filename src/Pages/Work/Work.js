@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Work() {
   return (
@@ -9,11 +9,11 @@ function Work() {
         flexDirection: "column",
         height: "auto",
         width: "100%",
-        background:"transparent"
+        background: "transparent",
       }}
     >
       <div
-      className="titles"
+        className="titles"
         style={{
           height: "auto",
           width: "100%",
@@ -28,24 +28,38 @@ function Work() {
         <div style={{ fontSize: "120px" }}>Let me show</div>
         <div style={{ fontSize: "120px" }}>you</div>
       </div>
-      <div style={{ display:"flex", flexWrap:"wrap", gap:"80px", justifyContent:"center", height:"max-content", width:"100%", padding:"160px 15px",backgroundColor:"black",boxSizing:"border-box"}}>
-        <Link to='/work/ganttchart' onClick={() => window.scrollTo(0,0)}>
-        <div class="card-work" >
-        
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "80px",
+          justifyContent: "center",
+          height: "max-content",
+          width: "100%",
+          padding: "160px 70px",
+          backgroundColor: "black",
+          boxSizing: "border-box",
+        }}
+      >
+        <div class="card-work">
+          <Link to="/work/ganttchart" onClick={() => window.scrollTo(0, 0)}>
+            Gantt
+          </Link>
         </div>
-        </Link>
 
         <div class="card-work">
-    
+          <Link to="/work/calendar" onClick={() => window.scrollTo(0, 0)}>
+            Calendar
+          </Link>
         </div>
 
         <div class="card-work">
-          
+          <Link to="/work/portal" onClick={() => window.scrollTo(0, 0)}>
+            Portal
+          </Link>
         </div>
 
-        <div class="card-work">
-          
-        </div>
+        <div class="card-work"></div>
       </div>
     </div>
   );
