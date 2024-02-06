@@ -53,20 +53,6 @@ function App() {
     };
   }, []);
 
-  React.useEffect(() => {
-    const handleScroll = (event) => {
-      // Adjust the scroll speed by multiplying the deltaY (change in Y) by a factor
-      const scrollSpeed = 0.5; // Adjust this value to control the scroll speed
-      window.scrollBy(0, event.deltaY * scrollSpeed);
-    };
-
-    window.addEventListener("wheel", handleScroll);
-
-    return () => {
-      window.removeEventListener("wheel", handleScroll);
-    };
-  }, []);
-
   const handleMenu = () => {
     setMenu(!menu);
   };
