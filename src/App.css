@@ -5,6 +5,8 @@ body {
   scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
+
+
 .navbar {
   transition: top 1s;
 }
@@ -534,6 +536,9 @@ body {
     height: 600px;
     width: 100%;
     margin-top: 60px;
+  }
+  body::-webkit-scrollbar {
+    display: none;
   }
 }
 
