@@ -7,7 +7,7 @@ function Footer() {
         height: "auto",
         width: "100%",
         background: "black",
-        padding: "160px 24px 64px 24px",
+        padding: "0px 24px 64px 24px",
         boxSizing: "border-box",
       }}
     >

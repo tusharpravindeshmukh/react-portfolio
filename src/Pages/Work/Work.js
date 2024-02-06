@@ -36,11 +36,16 @@ function Work() {
           justifyContent: "center",
           height: "max-content",
           width: "100%",
+<<<<<<< HEAD
           padding: "160px 70px",
+=======
+          padding: "160px 15px",
+>>>>>>> 8699112bac28460cdd6bfb6fdef69a6773968d41
           backgroundColor: "black",
           boxSizing: "border-box",
         }}
       >
+<<<<<<< HEAD
         <div class="card-work">
           <Link to="/work/ganttchart" onClick={() => window.scrollTo(0, 0)}>
             Gantt
@@ -59,6 +64,16 @@ function Work() {
           </Link>
         </div>
 
+=======
+        <Link to="/work/ganttchart" onClick={() => window.scrollTo(0, 0)}>
+          <div class="card-work"></div>
+        </Link>
+
+        <div class="card-work"></div>
+
+        <div class="card-work"></div>
+
+>>>>>>> 8699112bac28460cdd6bfb6fdef69a6773968d41
         <div class="card-work"></div>
       </div>
     </div>

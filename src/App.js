@@ -80,6 +80,10 @@ function App() {
         display: "grid",
         gridTemplateRows: "1 fr 1fr 1fr",
         position: "relative",
+        display:"flex",
+        flexDirection:"column",
+        gap:'160px',
+        background:"black"
       }}
     >
       <div
@@ -277,7 +281,7 @@ function App() {
 
       <div
         className="image-background"
-        style={{ height: "auto", width: "100%" }}
+        style={{ height: "auto", width: "100%", position:"absolute",zIndex:"2" }}
       >
         <img
           style={{ height: "100vh", width: "100%", boxSizing: "border-box" }}
@@ -288,7 +292,8 @@ function App() {
       <div
         className="router-box"
         style={{
-          marginTop: "-425px",
+          paddingTop: "300px",
+          zIndex:"3",
           height: "auto",
           width: "100%",
           overflow: "hidden",
