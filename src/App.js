@@ -75,11 +75,10 @@ function App() {
       <div
         className="header-container navbar"
         style={{
-          transform: "perspective(1200px)",
+          
           flex: "none",
           height: "auto",
           left: "0",
-          position: "fixed",
           right: "0",
           top: "0",
           zIndex: "10",

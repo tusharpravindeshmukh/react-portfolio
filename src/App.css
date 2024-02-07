@@ -5,7 +5,9 @@ body {
   scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
-
+.header-container{
+  position:fixed;
+}
 
 .navbar {
   transition: top 1s;
@@ -508,6 +510,9 @@ body {
   width: 70%;
 }
 @media only screen and (max-width: 900px) {
+  .header-container{
+    position: relative;
+  }
   .hamburger {
     display: flex;
   }

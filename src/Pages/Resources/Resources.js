@@ -5,6 +5,8 @@ import figma from "../../assets/figma.png";
 import photoshop from "../../assets/photoshop.png";
 import javascript from "../../assets/javascript.png";
 import git from "../../assets/pngegg (1).png"
+import bootstrap from "../../assets/bootstrap.png"
+import jquery from "../../assets/jquery.png"
 
 function Resources() {
   return (
@@ -412,6 +414,61 @@ function Resources() {
             </div>
           </div>
         </div>
+
+
+
+
+        <div
+          className="skills"
+          style={{
+            justifyContent: "normal",
+            alignItems: "center",
+            display: "grid",
+            gap: "24px",
+            gridTemplateColumns: "auto 1fr",
+          }}
+        >
+          <div>
+            <img style={{ height: "64px", width: "64px" }} src={bootstrap} />
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "fr 1fr" }}>
+            <div style={{ fontSize: "24px", filter: "contrast(19)" }}>
+              Bootstrap
+            </div>
+            <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
+              For server side scripting
+            </div>
+          </div>
+        </div>
+
+
+
+        <div
+          className="skills"
+          style={{
+            justifyContent: "normal",
+            alignItems: "center",
+            display: "grid",
+            gap: "24px",
+            gridTemplateColumns: "auto 1fr",
+          }}
+        >
+          <div>
+            <img style={{ height: "64px", width: "64px" }} src={jquery} />
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "fr 1fr" }}>
+            <div style={{ fontSize: "24px", filter: "contrast(19)" }}>
+              jQuery
+            </div>
+            <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
+              For server side scripting
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
     </div>
   );

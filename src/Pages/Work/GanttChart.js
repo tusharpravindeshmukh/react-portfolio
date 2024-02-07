@@ -214,7 +214,7 @@ function GanttChart() {
           width: "100%",
           height: "auto",
           display: "flex",
-          padding: "0px 50px 40px 50px",
+          padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
         }}
@@ -295,7 +295,7 @@ function GanttChart() {
           width: "100%",
           height: "auto",
           display: "flex",
-          padding: "0px 50px 40px 50px",
+          padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
           flexDirection: "row-reverse",
@@ -381,7 +381,7 @@ function GanttChart() {
           width: "100%",
           height: "auto",
           display: "flex",
-          padding: "0px 50px 40px 50px",
+          padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
         }}
