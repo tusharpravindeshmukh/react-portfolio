@@ -1,6 +1,8 @@
 import React from "react";
 import gantt from "../../assets/gantt.png";
-
+import dnd from "../../assets/videos/dragdrop.mp4";
+import elongate from "../../assets/videos/elongate.mp4";
+import movement from "../../assets/videos/movement.mp4";
 function GanttChart() {
   return (
     <div
@@ -60,7 +62,13 @@ function GanttChart() {
             alignItems: "center",
           }}
         >
-           <img style={{borderRadius:"24px"}} height="100%" width="100%" src={gantt} alt="" /> 
+          <img
+            style={{ borderRadius: "24px" }}
+            height="100%"
+            width="100%"
+            src={gantt}
+            alt=""
+          />
           <div
             style={{
               position: "absolute",
@@ -73,6 +81,143 @@ function GanttChart() {
             }}
           ></div>
         </div>
+      </div>
+      <div
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          padding: "0px 50px 40px 50px",
+          boxSizing: "border-box",
+          gap: "40px",
+        }}
+      >
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxSizing: "border-box",
+            border: "5px solid white",
+            borderRadius: "5px",
+          }}
+        >
+          <video
+            style={{ objectFit: "cover" }}
+            height="100%"
+            width="100%"
+            src={dnd}
+            autoPlay
+            loop
+            muted
+          ></video>
+        </div>
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            boxSizing: "border-box",
+            border: "1px solid white",
+          }}
+        ></div>
+      </div>
+
+      <div
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          padding: "0px 50px 40px 50px",
+          boxSizing: "border-box",
+          gap: "40px",
+          flexDirection: "row-reverse",
+        }}
+      >
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxSizing: "border-box",
+            border: "5px solid white",
+            borderRadius: "5px",
+          }}
+        >
+          <video
+            style={{ objectFit: "cover" }}
+            height="100%"
+            width="100%"
+            src={elongate}
+            autoPlay
+            loop
+            muted
+          ></video>
+        </div>
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            boxSizing: "border-box",
+            border: "1px solid white",
+          }}
+        ></div>
+      </div>
+
+      <div
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          padding: "0px 50px 40px 50px",
+          boxSizing: "border-box",
+          gap: "40px",
+        }}
+      >
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxSizing: "border-box",
+            borderRadius: "5px",
+          }}
+        >
+          <video
+            style={{ objectFit: "cover" }}
+            height="100%"
+            width="100%"
+            src={movement}
+            autoPlay
+            loop
+            muted
+          ></video>
+        </div>
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            boxSizing: "border-box",
+            border: "1px solid white",
+          }}
+        ></div>
       </div>
     </div>
   );
