@@ -1,7 +1,6 @@
 import React from "react";
 import gantt from "../../assets/gantt.png";
 
-
 function GanttChart() {
   return (
     <div
@@ -112,22 +111,19 @@ function GanttChart() {
           textAlign: "center",
         }}
       >
-        Introducing a cutting-edge{" "}
+        The{" "}
         <span style={{ color: "#6366f1", fontWeight: "normal" }}>
-          Gantt Chart{" "}
-        </span>
-        application meticulously crafted from the ground up using{" "}
-        <span style={{ color: "#6366f1", fontWeight: "normal" }}>React</span>.
+          React Calendar
+        </span>{" "}
+        offers users a comprehensive solution for managing their schedules
+        effortlessly.
         <br />
-        This innovative tool boasts advanced features tailored for seamless
-        scalability and lightning-fast performance, <br />
-        ensuring efficient project management. With a fully customizable
-        interface driven by props, users have unparalleled control over their
-        Gantt charts. What sets this solution apart is its reliance solely on
-        internal functionalities, eschewing external packages for a lean and
-        optimized experience. Leveraging SignalR for real-time updates, users
-        can collaborate effortlessly and stay synchronized in dynamic
-        environments.
+        Built from scratch with meticulous attention to detail,it seamlessly
+        integrates day, week, and month views,
+        <br /> providing users with versatile options to plan their time
+        effectively. With intuitive navigation controls, users can effortlessly
+        switch between different views to gain a holistic perspective of their
+        events.
         <div
           style={{
             height: "auto",
@@ -261,25 +257,22 @@ function GanttChart() {
             // fontWeight:"100"
           }}
         >
-          <div style={{ color: "#6366f1" }}>Dragging</div>
+          <div style={{ color: "#6366f1" }}>Month View</div>
           <div style={{ fontSize: "24px" }}>
             <ul>
               <li>
-                Seamless drag-and-drop functionality allows users to
-                effortlessly reorganize events within the Gantt chart.
+                Provides users with a comprehensive overview of an entire
+                month's schedule in a single view.
               </li>
               <li>
-                Intuitive event creation/deletion feature enables users to
-                remove unwanted events with ease.
+                Enables users to easily navigate between different months,
+                facilitating long-term planning.
               </li>
               <li>
-                Backend integration ensures that data manipulations, such as
-                dragging, dropping, or deleting events, are reflected accurately
-                and efficiently.
+                Events are injected from developer's end to manage custom
+                behaviors, which makes it unparallalebly customizable.
               </li>
-              <li>
-                User can swiftly filter, sort or search data.
-              </li>
+              <li>User can swiftly filter, sort or search data.</li>
             </ul>
           </div>
         </div>
@@ -337,28 +330,25 @@ function GanttChart() {
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Extending</div>
+          <div style={{ color: "#6366f1" }}>Week View</div>
           <div style={{ fontSize: "24px" }}>
             <ul>
               <li>
-                Flexible event extension capability empowers users to
-                dynamically adjust the duration of events within the Gantt
-                chart.
+                Presents users with a detailed view of their schedule for the
+                current week, focusing on seven consecutive days.
               </li>
               <li>
-                User can manipulate the duration by referring the timeline
-                (IST/UTC) ruler in the header.
+                Offers a seamless scrolling experience, allowing users to
+                navigate forward or backward in time within the week view
+                without interruption.
               </li>
               <li>
-                Upon clicking an event bar, dynamic guidelines appear,
-                facilitating alignment and comparison with the timeline ruler
-                positioned above.
+                The user can trigger desired events on different sections of the
+                application.
               </li>
               <li>
-                The{" "}
-                <span style={{ color: "rgb(99, 102, 241)" }}>cell render</span>{" "}
-                feature allows the bars to take any shape & size as per user
-                requirement.
+                The cell render feature allows the bars to take any shape & size
+                as per user requirement.
               </li>
             </ul>
           </div>
@@ -416,21 +406,18 @@ function GanttChart() {
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Moving</div>
+          <div style={{ color: "#6366f1" }}>Day View</div>
           <div style={{ fontSize: "24px" }}>
             <ul>
               <li>
-                Dynamic event bar movement functionality enables users to
-                reposition events within the Gantt chart effortlessly.
+                Users can specify their holiday list and the application will smartly highlight them for ease.
               </li>
               <li>
                 Users can efficiently adjust event placement to reflect changes
                 in project scheduling or priorities.
               </li>
               <li>
-                As users zoom in on the Gantt chart, event bars expand
-                proportionally to maintain clarity and visibility within the
-                increased view.
+                The date picker helps to swiftly navigate through timelines.
               </li>
               <li>Many more innovative features in the package..</li>
             </ul>
@@ -448,23 +435,14 @@ function GanttChart() {
           boxSizing: "border-box",
         }}
       >
-        The Gantt chart application is powered by an innovative
+        The React calendar application is powered by
         <span style={{ color: "#6366f1", fontWeight: "normal" }}>
           {" "}
-          DOM Virtualization{" "}
-        </span>{" "}
-        feature, <br /> enabling unparalleled scalability without sacrificing
-        performance.
-        <br /> In an impressive testament to its robustness,
-        <br />
-        our application has undergone rigorous testing with datasets containing
-        up to
-        <span style={{ color: "#6366f1", fontWeight: "normal" }}>
-          {" "}
-          10 million records{" "}
+          renderers
         </span>
-        ,<br /> surpassing expectations by maintaining optimal performance
-        without any throttle.
+        ,<br /> enabling developers to inject their custom events from outside
+        which brings unparalleled customization <br />
+        without sacrificing performance.
       </div>
     </div>
   );

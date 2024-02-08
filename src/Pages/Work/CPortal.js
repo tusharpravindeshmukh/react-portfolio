@@ -118,7 +118,7 @@ function CPortal() {
         <br />
         boosting component adoption by 25%. Using cutting-edge technologies like
         React, routers, and JWT Authentication,
-        <br /> the website empowers developers with intuitive navigation, live
+        <br /> the website empowers developers with secured logins, intuitive navigation, live
         demos, and clear documentation.
         <br />
         This user-friendly experience significantly reduced support requests
@@ -369,7 +369,7 @@ function CPortal() {
           
         }}
       >
-        The website is <span style={{color:"#6366f1"}}>live </span>within Laminaar Aviation's enviroment
+        The website is <span style={{color:"#6366f1"}}>live </span>within Laminaar Aviation's production enviroment.
       </div>
     </div>
   );

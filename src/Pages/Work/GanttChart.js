@@ -287,9 +287,7 @@ function GanttChart() {
                 dragging, dropping, or deleting events, are reflected accurately
                 and efficiently.
               </li>
-              <li>
-                User can swiftly filter, sort or search data.
-              </li>
+              <li>User can swiftly filter, sort or search data.</li>
             </ul>
           </div>
         </div>

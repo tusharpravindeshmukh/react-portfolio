@@ -132,8 +132,14 @@ function App() {
                   zIndex: "1",
                   background: "yellow",
                   borderRadius: "50%",
+                  alignItems:"center",
+                  justifyContent:"center",
+                  display:"flex",
+                  fontSize:"40px",
+                  fontFamily:"fangsong",
+                  color:"black"
                 }}
-              ></div>
+              >T</div>
             </Link>
           </div>
 
