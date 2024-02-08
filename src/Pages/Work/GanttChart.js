@@ -118,9 +118,9 @@ function GanttChart() {
           Gantt Chart{" "}
         </span>
         application meticulously crafted from the ground up using{" "}
-        <span style={{ color: "#6366f1", fontWeight: "normal" }}>React</span>.
+        <span style={{ color: "#6366f1", fontWeight: "normal" }}>React</span>.<br/>
         This innovative tool boasts advanced features tailored for seamless
-        scalability and lightning-fast performance, ensuring efficient project
+        scalability and lightning-fast performance, <br/>ensuring efficient project
         management. With a fully customizable interface driven by props, users
         have unparalleled control over their Gantt charts. What sets this
         solution apart is its reliance solely on internal functionalities,
@@ -133,7 +133,7 @@ function GanttChart() {
             display: "flex",
             width: "100%",
             gap: "20px",
-            marginTop: "20px",
+            marginTop: "30px",
           }}
         >
           <div
@@ -461,13 +461,13 @@ function GanttChart() {
           The Gantt chart application is powered by an innovative 
           <span style={{ color: "#6366f1", fontWeight: "normal" }}>
           {" "}DOM Virtualization{" "}
-        </span> feature, enabling unparalleled scalability without
-          sacrificing performance. In an impressive testament to its robustness,
+        </span> feature, <br/> enabling unparalleled scalability without
+          sacrificing performance.<br/> In an impressive testament to its robustness,<br/>
           our application has undergone rigorous testing with datasets
           containing up to 
           <span style={{ color: "#6366f1", fontWeight: "normal" }}>
           {" "}10 million records{" "}
-        </span>, surpassing expectations by
+        </span>,<br/> surpassing expectations by
           maintaining optimal performance without any throttle.
         </div>
     </div>

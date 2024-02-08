@@ -4,7 +4,6 @@ import back from "./assets/back.png";
 import Default from "./Pages/Default/Default";
 import Footer from "./Static/Footer";
 import Work from "./Pages/Work/Work";
-import Blog from "./Pages/Blog/Blog";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Resources from "./Pages/Resources/Resources";
@@ -177,11 +176,11 @@ function App() {
                 Work
               </Link>
             </div>
-            <div style={{}}>
+            {/* <div style={{}}>
               <Link className="nav-items" to={"/blog"}>
                 Blog
               </Link>
-            </div>
+            </div> */}
             <div style={{}}>
               <Link className="nav-items" to={"/about"}>
                 About
@@ -284,14 +283,10 @@ function App() {
           overflow: "hidden",
         }}
       >
-        {/* <Default /> */}
-        {/* <Work/> */}
-        {/* <Blog/> */}
 
         <Routes>
           <Route path="/react-portfolio" element={<Default />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />         
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
