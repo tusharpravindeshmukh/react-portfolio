@@ -43,8 +43,8 @@ function Work() {
           padding: "160px 15px",
           backgroundColor: "black",
           boxSizing: "border-box",
-          alignItems:"center",
-          flexDirection:"column"
+          alignItems: "center",
+          flexDirection: "row",
         }}
       >
         <Link to="/work/ganttchart">
@@ -158,7 +158,7 @@ function Work() {
                     boxShadow: "12px 20px 15px -3px black",
                   }}
                 ></h3>
-                <h3
+                {/* <h3
                   class="titlex"
                   style={{
                     height: "15px",
@@ -170,7 +170,7 @@ function Work() {
                     borderRadius: "24px",
                     boxShadow: "12px 20px 15px -3px black",
                   }}
-                ></h3>
+                ></h3> */}
                 <h3
                   class="titlex"
                   style={{

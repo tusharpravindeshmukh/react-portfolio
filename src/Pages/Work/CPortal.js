@@ -315,7 +315,7 @@ function CPortal() {
             }}
           ></div>
           <img
-            style={{ height: "100%", width: "100%" }}
+            style={{ height: "100%", width: "100%",borderRadius:"24px" }}
             src={portalone}
             alt=""
           />
@@ -364,7 +364,7 @@ function CPortal() {
           height: "auto",
           textAlign: "center",
           fontSize: "28px",
-          padding: "60px 120px",
+          padding: "160px 0px 0px 0px",
           boxSizing: "border-box",
           
         }}

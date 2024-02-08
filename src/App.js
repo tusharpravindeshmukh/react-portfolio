@@ -65,16 +65,15 @@ function App() {
         display: "grid",
         gridTemplateRows: "1 fr 1fr 1fr",
         position: "relative",
-        display:"flex",
-        flexDirection:"column",
-        gap:'160px',
-        background:"black"
+        display: "flex",
+        flexDirection: "column",
+        gap: "160px",
+        background: "black",
       }}
     >
       <div
         className="header-container navbar"
         style={{
-          
           flex: "none",
           height: "auto",
           left: "0",
@@ -124,6 +123,7 @@ function App() {
           >
             <Link to={"/react-portfolio"}>
               <div
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 style={{
                   flex: "none",
                   height: "56px",
@@ -167,12 +167,20 @@ function App() {
             }}
           >
             <div style={{}}>
-              <Link className="nav-items" to={"/resources"}>
+              <Link
+                className="nav-items"
+                to={"/resources"}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
                 Resources
               </Link>
             </div>
             <div style={{}}>
-              <Link className="nav-items" to={"/work"}>
+              <Link
+                className="nav-items"
+                to={"/work"}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
                 Work
               </Link>
             </div>
@@ -182,13 +190,18 @@ function App() {
               </Link>
             </div> */}
             <div style={{}}>
-              <Link className="nav-items" to={"/about"}>
+              <Link
+                className="nav-items"
+                to={"/about"}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
                 About
               </Link>
             </div>
           </nav>
           <Link to={"/contact"}>
             <div
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="contact-button"
               style={{
                 bottom: "12px",
@@ -218,7 +231,7 @@ function App() {
               alignItems: "center",
               borderRadius: "50%",
               background: "rgb(30 30 30)",
-              cursor:"pointer"
+              cursor: "pointer",
             }}
             onClick={handleMenu}
           >
@@ -244,20 +257,65 @@ function App() {
               marginTop: "60px",
             }}
           >
-            <Link to="/resources" style={{textDecoration:"none"}}>
-              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Resources</div>
+            <Link to="/resources" style={{ textDecoration: "none" }}>
+              <div
+                onClick={() => setMenu(false)}
+                style={{
+                  fontSize: "40px",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                Resources
+              </div>
             </Link>
-            <Link to="/work" style={{textDecoration:"none"}}>
-              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Work</div>
+            <Link to="/work" style={{ textDecoration: "none" }}>
+              <div
+                onClick={() => setMenu(false)}
+                style={{
+                  fontSize: "40px",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                Work
+              </div>
             </Link>
-            <Link to="/blog" style={{textDecoration:"none"}}>
-              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Blog</div>
+            <Link to="/blog" style={{ textDecoration: "none" }}>
+              <div
+                onClick={() => setMenu(false)}
+                style={{
+                  fontSize: "40px",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                Blog
+              </div>
             </Link>
-            <Link to="/about" style={{textDecoration:"none"}}>
-              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>About</div>
+            <Link to="/about" style={{ textDecoration: "none" }}>
+              <div
+                onClick={() => setMenu(false)}
+                style={{
+                  fontSize: "40px",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                About
+              </div>
             </Link>
-            <Link to="/contact" style={{textDecoration:"none"}}>
-              <div onClick={() => setMenu(false)} style={{ fontSize: "40px",textDecoration:"none", color:"white" }}>Contact</div>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <div
+                onClick={() => setMenu(false)}
+                style={{
+                  fontSize: "40px",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                Contact
+              </div>
             </Link>
           </div>
         )}
@@ -265,7 +323,12 @@ function App() {
 
       <div
         className="image-background"
-        style={{ height: "auto", width: "100%", position:"absolute",zIndex:"2" }}
+        style={{
+          height: "auto",
+          width: "100%",
+          position: "absolute",
+          zIndex: "2",
+        }}
       >
         <img
           style={{ height: "100vh", width: "100%", boxSizing: "border-box" }}
@@ -277,16 +340,15 @@ function App() {
         className="router-box"
         style={{
           paddingTop: "300px",
-          zIndex:"3",
+          zIndex: "3",
           height: "auto",
           width: "100%",
           overflow: "hidden",
         }}
       >
-
         <Routes>
           <Route path="/react-portfolio" element={<Default />} />
-          <Route path="/about" element={<About />} />         
+          <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
