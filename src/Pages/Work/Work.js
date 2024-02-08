@@ -47,8 +47,10 @@ function Work() {
           flexDirection: "row",
         }}
       >
+
+
         <Link to="/work/ganttchart">
-          <div class="cardx" style={{ height: "350px", width: "500px" }}>
+          <div class="cardx" style={{ height: "350px", width: "500px" }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
             <div
               class="contentx"
               style={{
@@ -233,8 +235,8 @@ function Work() {
           </div>
         </Link>
 
-        <Link to="/work/portal">
-          <div class="cardx" style={{ height: "350px", width: "500px" }}>
+        <Link to="/work/calendar" >
+          <div  class="cardx" style={{ height: "350px", width: "500px" }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
             <div
               class="contentx"
               style={{
@@ -420,7 +422,7 @@ function Work() {
           </div>
         </Link>
 
-        <Link to="/work/portal">
+        <Link to="/work/portal" onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
           <div class="cardx" style={{ height: "350px", width: "500px" }}>
             <div
               class="contentx"
@@ -486,7 +488,7 @@ function Work() {
           </div>
         </Link>
 
-        <Link to="/work">
+        <Link to="/work" onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
           <div class="cardx" style={{ height: "350px", width: "500px" }}>
             <div
               class="contentx"

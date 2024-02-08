@@ -269,7 +269,7 @@ function Resources() {
               JavaScript
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              For scripting.
             </div>
           </div>
         </div>
@@ -295,7 +295,7 @@ function Resources() {
               HTML5
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Structuring web pages
             </div>
           </div>
         </div>
@@ -321,7 +321,7 @@ function Resources() {
               CSS3
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Style and layout
             </div>
           </div>
         </div>
@@ -350,7 +350,7 @@ function Resources() {
               Git
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Version control, collaboration
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ function Resources() {
               Figma
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Designing, wireframing
             </div>
           </div>
         </div>
@@ -410,7 +410,7 @@ function Resources() {
               Photoshop
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Graphic editing, designing
             </div>
           </div>
         </div>
@@ -436,7 +436,7 @@ function Resources() {
               Bootstrap
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Styling, templates
             </div>
           </div>
         </div>
@@ -461,7 +461,7 @@ function Resources() {
               jQuery
             </div>
             <div style={{ fontSize: "18px", filter: "contrast(10%)" }}>
-              For server side scripting
+              Javascript library
             </div>
           </div>
         </div>
