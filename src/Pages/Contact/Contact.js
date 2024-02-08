@@ -44,7 +44,6 @@ function Contact() {
           <div style={{ fontSize: "32px", marginTop: "8px" }}>
             tusharpravindeshmukh@gmail.com
           </div>
-          <div style={{ fontSize: "32px" }}>+91-8668314767</div>
           <div style={{ fontSize: "32px" }}>+91-9764636574</div>
         </div>
         <div style={{ color: "white", height: "auto", width: "100%" }}>

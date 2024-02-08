@@ -118,15 +118,17 @@ function GanttChart() {
           Gantt Chart{" "}
         </span>
         application meticulously crafted from the ground up using{" "}
-        <span style={{ color: "#6366f1", fontWeight: "normal" }}>React</span>.<br/>
+        <span style={{ color: "#6366f1", fontWeight: "normal" }}>React</span>.
+        <br />
         This innovative tool boasts advanced features tailored for seamless
-        scalability and lightning-fast performance, <br/>ensuring efficient project
-        management. With a fully customizable interface driven by props, users
-        have unparalleled control over their Gantt charts. What sets this
-        solution apart is its reliance solely on internal functionalities,
-        eschewing external packages for a lean and optimized experience.
-        Leveraging SignalR for real-time updates, users can collaborate
-        effortlessly and stay synchronized in dynamic environments.
+        scalability and lightning-fast performance, <br />
+        ensuring efficient project management. With a fully customizable
+        interface driven by props, users have unparalleled control over their
+        Gantt charts. What sets this solution apart is its reliance solely on
+        internal functionalities, eschewing external packages for a lean and
+        optimized experience. Leveraging SignalR for real-time updates, users
+        can collaborate effortlessly and stay synchronized in dynamic
+        environments.
         <div
           style={{
             height: "auto",
@@ -285,6 +287,9 @@ function GanttChart() {
                 dragging, dropping, or deleting events, are reflected accurately
                 and efficiently.
               </li>
+              <li>
+                User can swiftly filter, sort or search data.
+              </li>
             </ul>
           </div>
         </div>
@@ -369,7 +374,10 @@ function GanttChart() {
                 positioned above.
               </li>
               <li>
-                The <span style={{color:"rgb(99, 102, 241)"}}>cell render</span> feature allows the bars to take any shape & size as per user requirement.
+                The{" "}
+                <span style={{ color: "rgb(99, 102, 241)" }}>cell render</span>{" "}
+                feature allows the bars to take any shape & size as per user
+                requirement.
               </li>
             </ul>
           </div>
@@ -457,19 +465,35 @@ function GanttChart() {
           </div>
         </div>
       </div>
-      <div style={{color:"white", width:"100%", height:"auto", textAlign:"center", fontSize:"24px", padding:"60px 120px", boxSizing:"border-box"}}>
-          The Gantt chart application is powered by an innovative 
-          <span style={{ color: "#6366f1", fontWeight: "normal" }}>
-          {" "}DOM Virtualization{" "}
-        </span> feature, <br/> enabling unparalleled scalability without
-          sacrificing performance.<br/> In an impressive testament to its robustness,<br/>
-          our application has undergone rigorous testing with datasets
-          containing up to 
-          <span style={{ color: "#6366f1", fontWeight: "normal" }}>
-          {" "}10 million records{" "}
-        </span>,<br/> surpassing expectations by
-          maintaining optimal performance without any throttle.
-        </div>
+      <div
+        style={{
+          color: "white",
+          width: "100%",
+          height: "auto",
+          textAlign: "center",
+          fontSize: "24px",
+          padding: "60px 120px",
+          boxSizing: "border-box",
+        }}
+      >
+        The Gantt chart application is powered by an innovative
+        <span style={{ color: "#6366f1", fontWeight: "normal" }}>
+          {" "}
+          DOM Virtualization{" "}
+        </span>{" "}
+        feature, <br /> enabling unparalleled scalability without sacrificing
+        performance.
+        <br /> In an impressive testament to its robustness,
+        <br />
+        our application has undergone rigorous testing with datasets containing
+        up to
+        <span style={{ color: "#6366f1", fontWeight: "normal" }}>
+          {" "}
+          10 million records{" "}
+        </span>
+        ,<br /> surpassing expectations by maintaining optimal performance
+        without any throttle.
+      </div>
     </div>
   );
 }

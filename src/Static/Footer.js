@@ -1,6 +1,9 @@
 import React from "react";
 
 function Footer() {
+
+
+  const emailAddress = 'tusharpravindeshmukh@gmail.com'
   return (
     <div
       style={{
@@ -49,19 +52,22 @@ function Footer() {
           marginBottom: "60px",
         }}
       >
+        <a href={`mailto:${emailAddress}`}>
         <span
           className="contact-button"
           style={{
             border: "1px solid white",
             padding: "20px 35px",
             borderRadius: "80px",
+            textDecoration:"none"
           }}
         >
           tusharpravindeshmukh@gmail.com
         </span>
+        </a>
 
         <div style={{ marginTop: "60px" }} class="card">
-          <a class="social-link1">
+          <a class="social-link1" href="https://www.instagram.com/itushardeshmukh?igsh=MWhvZnUzdzQ5eHBlZA==">
             <svg
               viewBox="0 0 16 16"
               class="bi bi-instagram"
@@ -109,7 +115,7 @@ function Footer() {
               ></path>{" "}
             </svg>
           </a>
-          <a class="social-link4">
+          <a class="social-link4" href="https://wa.me/qr/FDB6Q4WB6KRRD1">
             <svg
               viewBox="0 0 16 16"
               class="bi bi-whatsapp"

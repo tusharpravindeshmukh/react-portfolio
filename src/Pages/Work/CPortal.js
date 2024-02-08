@@ -1,5 +1,7 @@
 import React from "react";
-import gantt from "../../assets/gantt.png";
+import portal from "../../assets/portalone.png";
+import portalone from "../../assets/portaltwo.png";
+import portalthree from "../../assets/portalthree.png";
 
 function CPortal() {
   return (
@@ -25,16 +27,16 @@ function CPortal() {
         }}
       >
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
-          Gantt Chart
+          Portal
         </div>
         <div className="designation" style={{ fontSize: "120px" }}>
-          advanced scheduler
+          Intuitive UI/UX for
         </div>
         <div
           className="designation"
           style={{ fontSize: "120px", backgroundColor: "black" }}
         >
-          & tracker
+          a react library
         </div>
       </div>
       <div
@@ -60,7 +62,13 @@ function CPortal() {
             alignItems: "center",
           }}
         >
-           <img style={{borderRadius:"24px"}} height="100%" width="100%" src={gantt} alt="" /> 
+          <img
+            style={{ borderRadius: "24px" }}
+            height="100%"
+            width="100%"
+            src={portal}
+            alt=""
+          />
           <div
             style={{
               position: "absolute",
@@ -69,10 +77,299 @@ function CPortal() {
               height: "160px",
               width: "100%",
               background:
-                "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 85%)",
+                "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
             }}
           ></div>
         </div>
+      </div>
+      <div
+        style={{
+          height: "auto",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          fontSize: "100px",
+          color: "white",
+          paddingBottom: "160px",
+          fontWeight: "100",
+          backdropFilter: "contrast(20)",
+        }}
+      >
+        Project overview
+      </div>
+      <div
+        style={{
+          height: "auto",
+          width: "100%",
+          fontSize: "25px",
+          color: "white",
+          paddingBottom: "160px",
+          fontWeight: "100",
+          backdropFilter: "contrast(20)",
+          padding: "0px 60px 80px 60px",
+          boxSizing: "border-box",
+          lineHeight: "40px",
+          textAlign: "center",
+        }}
+      >
+        I crafted an interactive React library component showcase website for
+        Laminaar Aviation Infotech,
+        <br />
+        boosting component adoption by 25%. Using cutting-edge technologies like
+        React, routers, and JWT Authentication,
+        <br /> the website empowers developers with intuitive navigation, live
+        demos, and clear documentation.
+        <br />
+        This user-friendly experience significantly reduced support requests
+        <br />
+        while increasing brand awareness and contributing to client success.
+        <div
+          style={{
+            height: "auto",
+            display: "flex",
+            width: "100%",
+            gap: "20px",
+            marginTop: "30px",
+            justifyContent: "center",
+          }}
+        >
+          <div
+            style={{
+              fontSize: "16px",
+              padding: "5px 20px",
+              fontWeight: "bold",
+              background: "grey",
+              borderRadius: "24px",
+              backgroundColor: "rgb(37, 37, 37)",
+            }}
+          >
+            <span style={{ filter: "contrast(0.5)" }}>Theme Builder </span>
+          </div>
+          <div
+            style={{
+              fontSize: "16px",
+              padding: "5px 20px",
+              fontWeight: "bold",
+              background: "grey",
+              borderRadius: "24px",
+              backgroundColor: "rgb(37, 37, 37)",
+            }}
+          >
+            <span style={{ filter: "contrast(0.5)" }}>
+              Custom React Library
+            </span>
+          </div>
+          <div
+            style={{
+              fontSize: "16px",
+              padding: "5px 20px",
+              fontWeight: "bold",
+              background: "grey",
+              borderRadius: "24px",
+              backgroundColor: "rgb(37, 37, 37)",
+            }}
+          >
+            <span style={{ filter: "contrast(0.5)" }}>Components</span>
+          </div>
+          <div
+            style={{
+              fontSize: "16px",
+              padding: "5px 20px",
+              fontWeight: "bold",
+              background: "grey",
+              borderRadius: "24px",
+              backgroundColor: "rgb(37, 37, 37)",
+            }}
+          >
+            <span style={{ filter: "contrast(0.5)" }}>Authentication</span>
+          </div>
+          <div
+            style={{
+              fontSize: "16px",
+              padding: "5px 20px",
+              fontWeight: "bold",
+              background: "grey",
+              borderRadius: "24px",
+              backgroundColor: "rgb(37, 37, 37)",
+            }}
+          >
+            <span style={{ filter: "contrast(0.5)" }}>Authorization</span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          padding: "0px 50px 80px 50px",
+          boxSizing: "border-box",
+          gap: "40px",
+        }}
+      >
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxSizing: "border-box",
+            position: "relative",
+            padding: "6px",
+            background: "rgb(37 37 37)",
+            borderRadius: "24px",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              bottom: "0",
+              left: "0",
+              height: "50px",
+              width: "101%",
+              background:
+                "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
+            }}
+          ></div>
+          <img
+            style={{ height: "100%", width: "100%", borderRadius: "24px" }}
+            src={portalone}
+            alt=""
+          />
+        </div>
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            // justifyContent: "center",
+            // alignItems: "center",
+            // padding: "10px",
+            boxSizing: "border-box",
+            flexDirection: "column",
+            color: "white",
+            fontSize: "30px",
+            // fontWeight:"100"
+          }}
+        >
+          <div style={{ color: "#6366f1" }}>Authentication/Authorization</div>
+          <div style={{ fontSize: "24px" }}>
+            <ul>
+              <li>
+                Users submit credentials, validated against secure storage.
+              </li>
+              <li>
+                JWT generated and signed with secret key upon successful login.
+              </li>
+              <li>
+                Tokens set to expire after a defined period, mitigating risk of
+                leaks.
+              </li>
+              <li>Scalable to handle high volumes of requests efficiently.</li>
+              <li>
+                Protected API endpoints based on claims comparison at
+                server-side.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          padding: "0px 50px 80px 50px",
+          boxSizing: "border-box",
+          gap: "40px",
+          flexDirection: "row-reverse",
+        }}
+      >
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxSizing: "border-box",
+            position: "relative",
+            padding: "6px",
+            background: "rgb(37 37 37)",
+            borderRadius: "24px",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              bottom: "0",
+              left: "0",
+              height: "50px",
+              width: "101%",
+              background:
+                "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
+            }}
+          ></div>
+          <img
+            style={{ height: "100%", width: "100%" }}
+            src={portalone}
+            alt=""
+          />
+        </div>
+        <div
+          style={{
+            height: "352px",
+            width: "50%",
+            display: "flex",
+            // justifyContent: "center",
+            // alignItems: "center",
+            // padding: "10px",
+            boxSizing: "border-box",
+            flexDirection: "column",
+            color: "white",
+            fontSize: "30px",
+            fontWeight: "100",
+          }}
+        >
+          <div style={{ color: "#6366f1" }}>User friendly design</div>
+          <div style={{ fontSize: "24px" }}>
+            <ul>
+              <li>
+                User-friendly quick scrolls for tags, lists, and search results,
+                enabling efficient information access and reducing cognitive
+                load.
+              </li>
+              <li>
+                Intuitive search function with clear input and relevant
+                suggestions, facilitating targeted content discovery.
+              </li>
+              <li>Organized navigation links.</li>
+              <li>
+                Incorporated accessibility best practices to ensure inclusivity
+                for users with diverse needs.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          color: "white",
+          width: "100%",
+          height: "auto",
+          textAlign: "center",
+          fontSize: "28px",
+          padding: "60px 120px",
+          boxSizing: "border-box",
+          
+        }}
+      >
+        The website is <span style={{color:"#6366f1"}}>live </span>within Laminaar Aviation's enviroment
       </div>
     </div>
   );
