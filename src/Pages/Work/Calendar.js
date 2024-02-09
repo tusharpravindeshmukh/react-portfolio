@@ -1,5 +1,8 @@
 import React from "react";
 import gantt from "../../assets/gantt.png";
+import calendarmain from "../../assets/calendarmain.png";
+import week from "../../assets/month.png";
+import day from "../../assets/day.png";
 
 function GanttChart() {
   return (
@@ -27,7 +30,7 @@ function GanttChart() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           React Calendar
         </div>
-        <div className="designation second-title" style={{ }}>
+        <div className="designation second-title" style={{}}>
           managing meetings,
         </div>
         <div
@@ -53,7 +56,7 @@ function GanttChart() {
           className="gantt showcase"
           style={{
             position: "relative",
-         
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -63,7 +66,7 @@ function GanttChart() {
             style={{ borderRadius: "24px" }}
             height="100%"
             width="100%"
-            src={gantt}
+            src={calendarmain}
             alt=""
           />
           <div
@@ -87,7 +90,7 @@ function GanttChart() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          textAlign:'center',
+          textAlign: "center",
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
@@ -97,16 +100,16 @@ function GanttChart() {
         Project overview
       </div>
       <div
-       className="calendar-intro"
+        className="calendar-intro"
         style={{
           height: "auto",
           width: "100%",
-        
+
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
           backdropFilter: "contrast(20)",
-         
+
           boxSizing: "border-box",
           lineHeight: "40px",
           textAlign: "center",
@@ -129,7 +132,7 @@ function GanttChart() {
           className="sub-skills"
           style={{
             height: "auto",
-           
+
             width: "100%",
             gap: "20px",
             marginTop: "30px",
@@ -220,10 +223,10 @@ function GanttChart() {
         }}
       >
         <div
-        className="card-container-first"
+          className="card-container-first"
           style={{
             height: "352px",
-     
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -245,12 +248,18 @@ function GanttChart() {
                 "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
             }}
           ></div>
+          <img
+            src={calendarmain}
+            height="100%"
+            width="100%"
+            style={{ borderRadius: "24px" }}
+          />
         </div>
         <div
           className="card-container-first"
           style={{
             height: "auto",
-      
+
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -258,12 +267,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-          
+
             // fontWeight:"100"
           }}
         >
-          <div style={{ color: "#6366f1", fontSize:"30px" }}>Month View</div>
-          <div style={{  }}>
+          <div style={{ color: "#6366f1", fontSize: "30px" }}>Month View</div>
+          <div style={{}}>
             <ul>
               <li>
                 Provides users with a comprehensive overview of an entire
@@ -284,7 +293,7 @@ function GanttChart() {
       </div>
 
       <div
-         className="card-container"
+        className="card-container-odd"
         style={{
           width: "100%",
           height: "auto",
@@ -292,14 +301,13 @@ function GanttChart() {
           padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
-         
         }}
       >
         <div
-         className="card-container-first"
+          className="card-container-first"
           style={{
             height: "352px",
-       
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -320,13 +328,21 @@ function GanttChart() {
               background:
                 "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
             }}
-          ></div>
+          >
+            {" "}
+          </div>
+          <img
+            src={week}
+            height="100%"
+            width="100%"
+            style={{ borderRadius: "24px" }}
+          />
         </div>
         <div
-         className="card-container-first"
+          className="card-container-first"
           style={{
             height: "auto",
-        
+
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -334,12 +350,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-           
+
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" , fontSize:"30px"}}>Week View</div>
-          <div style={{ }}>
+          <div style={{ color: "#6366f1", fontSize: "30px" }}>Week View</div>
+          <div style={{}}>
             <ul>
               <li>
                 Presents users with a detailed view of their schedule for the
@@ -400,12 +416,16 @@ function GanttChart() {
                 "linear-gradient(180deg,rgba(8,8,10,0) 10%,var(--token-55071dc9-92d0-4cdb-8ef9-67f5658ea748, #000000) 69%)",
             }}
           ></div>
+          <img
+            src={day}
+            height="100%"
+            width="100%"
+            style={{ borderRadius: "24px" }}
+          />
         </div>
         <div
-        className="card-container-first"
+          className="card-container-first"
           style={{
-         
-       
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -413,15 +433,16 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-      
+
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" ,fontSize:"30px"}}>Day View</div>
-          <div style={{ }}>
+          <div style={{ color: "#6366f1", fontSize: "30px" }}>Day View</div>
+          <div style={{}}>
             <ul>
               <li>
-                Users can specify their holiday list and the application will smartly highlight them for ease.
+                Users can specify their holiday list and the application will
+                smartly highlight them for ease.
               </li>
               <li>
                 Users can efficiently adjust event placement to reflect changes
@@ -436,14 +457,13 @@ function GanttChart() {
         </div>
       </div>
       <div
-  className="calendar-intro"
+        className="calendar-intro"
         style={{
           color: "white",
           width: "100%",
           height: "auto",
           textAlign: "center",
 
-          
           boxSizing: "border-box",
         }}
       >

@@ -299,7 +299,7 @@ function GanttChart() {
       </div>
 
       <div
-        className="card-container"
+        className="card-container-odd"
         style={{
           width: "100%",
           height: "auto",

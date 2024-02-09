@@ -1210,6 +1210,10 @@ a{text-decoration:none;}
   flex-direction: row;
 }
 
+.card-container{
+  flex-direction: row-reverse;
+}
+
 .card-container-first{
   width: 50%;
   font-size: 24px;
