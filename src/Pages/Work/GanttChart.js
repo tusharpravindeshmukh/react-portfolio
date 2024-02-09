@@ -29,12 +29,12 @@ function GanttChart() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           Gantt Chart
         </div>
-        <div className="designation" style={{ fontSize: "120px" }}>
+        <div className="designation second-title" style={{}}>
           advanced scheduler
         </div>
         <div
-          className="designation"
-          style={{ fontSize: "120px", backgroundColor: "black" }}
+          className="designation second-title"
+          style={{ backgroundColor: "black" }}
         >
           & tracker
         </div>
@@ -52,11 +52,10 @@ function GanttChart() {
         }}
       >
         <div
-          className="gantt"
+          className="gantt showcase"
           style={{
             position: "relative",
-            width: "80%",
-            height: "700px",
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -83,13 +82,14 @@ function GanttChart() {
         </div>
       </div>
       <div
+        className="second-title"
         style={{
           height: "auto",
           width: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "100px",
+
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
@@ -99,15 +99,16 @@ function GanttChart() {
         Project overview
       </div>
       <div
+        className="calendar-intro"
         style={{
           height: "auto",
           width: "100%",
-          fontSize: "25px",
+
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
           backdropFilter: "contrast(20)",
-          padding: "0px 60px 80px 60px",
+
           boxSizing: "border-box",
           lineHeight: "40px",
           textAlign: "center",
@@ -130,9 +131,10 @@ function GanttChart() {
         can collaborate effortlessly and stay synchronized in dynamic
         environments.
         <div
+          className="sub-skills"
           style={{
             height: "auto",
-            display: "flex",
+
             width: "100%",
             gap: "20px",
             marginTop: "30px",
@@ -212,6 +214,7 @@ function GanttChart() {
       </div>
 
       <div
+        className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -222,9 +225,10 @@ function GanttChart() {
         }}
       >
         <div
+          className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -257,9 +261,10 @@ function GanttChart() {
           ></video>
         </div>
         <div
+          className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -267,12 +272,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+
             // fontWeight:"100"
           }}
         >
-          <div style={{ color: "#6366f1" }}>Dragging</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1", fontSize: "30px" }}>Dragging</div>
+          <div style={{}}>
             <ul>
               <li>
                 Seamless drag-and-drop functionality allows users to
@@ -294,6 +299,7 @@ function GanttChart() {
       </div>
 
       <div
+        className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -301,13 +307,13 @@ function GanttChart() {
           padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
-          flexDirection: "row-reverse",
         }}
       >
         <div
+         className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+         
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -340,9 +346,10 @@ function GanttChart() {
           ></video>
         </div>
         <div
+         className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+           
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -350,12 +357,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+        
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Extending</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1", fontSize:"30px" }}>Extending</div>
+          <div style={{  }}>
             <ul>
               <li>
                 Flexible event extension capability empowers users to
@@ -383,6 +390,7 @@ function GanttChart() {
       </div>
 
       <div
+        className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -393,9 +401,10 @@ function GanttChart() {
         }}
       >
         <div
+          className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -428,9 +437,10 @@ function GanttChart() {
           ></video>
         </div>
         <div
+          className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -438,12 +448,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Moving</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1", fontSize: "30px" }}>Moving</div>
+          <div style={{}}>
             <ul>
               <li>
                 Dynamic event bar movement functionality enables users to
@@ -464,13 +474,15 @@ function GanttChart() {
         </div>
       </div>
       <div
+       className="calendar-intro"
+       
         style={{
           color: "white",
           width: "100%",
           height: "auto",
           textAlign: "center",
-          fontSize: "24px",
-          padding: "60px 120px",
+     
+       
           boxSizing: "border-box",
         }}
       >

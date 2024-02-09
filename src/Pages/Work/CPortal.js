@@ -29,12 +29,12 @@ function CPortal() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           Portal
         </div>
-        <div className="designation" style={{ fontSize: "120px" }}>
+        <div className="designation second-title" style={{}}>
           Intuitive UI/UX for
         </div>
         <div
-          className="designation"
-          style={{ fontSize: "120px", backgroundColor: "black" }}
+          className="designation second-title"
+          style={{ backgroundColor: "black" }}
         >
           a react library
         </div>
@@ -52,11 +52,9 @@ function CPortal() {
         }}
       >
         <div
-          className="gantt"
+          className="gantt showcase"
           style={{
             position: "relative",
-            width: "80%",
-            height: "700px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -83,13 +81,14 @@ function CPortal() {
         </div>
       </div>
       <div
+        className="second-title"
         style={{
           height: "auto",
           width: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "100px",
+        
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
@@ -99,15 +98,16 @@ function CPortal() {
         Project overview
       </div>
       <div
+       className="calendar-intro"
         style={{
           height: "auto",
           width: "100%",
-          fontSize: "25px",
+     
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
           backdropFilter: "contrast(20)",
-          padding: "0px 60px 80px 60px",
+       
           boxSizing: "border-box",
           lineHeight: "40px",
           textAlign: "center",
@@ -118,16 +118,17 @@ function CPortal() {
         <br />
         boosting component adoption by 25%. Using cutting-edge technologies like
         React, routers, and JWT Authentication,
-        <br /> the website empowers developers with secured logins, intuitive navigation, live
-        demos, and clear documentation.
+        <br /> the website empowers developers with secured logins, intuitive
+        navigation, live demos, and clear documentation.
         <br />
         This user-friendly experience significantly reduced support requests
         <br />
         while increasing brand awareness and contributing to client success.
         <div
+         className="sub-skills"
           style={{
             height: "auto",
-            display: "flex",
+        
             width: "100%",
             gap: "20px",
             marginTop: "30px",
@@ -200,6 +201,7 @@ function CPortal() {
       </div>
 
       <div
+       className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -210,9 +212,10 @@ function CPortal() {
         }}
       >
         <div
+         className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+         
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -241,9 +244,10 @@ function CPortal() {
           />
         </div>
         <div
+         className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+     
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -251,12 +255,12 @@ function CPortal() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+       
             // fontWeight:"100"
           }}
         >
-          <div style={{ color: "#6366f1" }}>Authentication/Authorization</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1" , fontSize:"30px" }}>Authentication</div>
+          <div style={{  }}>
             <ul>
               <li>
                 Users submit credentials, validated against secure storage.
@@ -279,6 +283,7 @@ function CPortal() {
       </div>
 
       <div
+      className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -286,13 +291,14 @@ function CPortal() {
           padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
-          flexDirection: "row-reverse",
+       
         }}
       >
         <div
+         className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+         
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -315,15 +321,16 @@ function CPortal() {
             }}
           ></div>
           <img
-            style={{ height: "100%", width: "100%",borderRadius:"24px" }}
+            style={{ height: "100%", width: "100%", borderRadius: "24px" }}
             src={portalone}
             alt=""
           />
         </div>
         <div
+         className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+       
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -331,12 +338,12 @@ function CPortal() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+         
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>User friendly design</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1", fontSize:"30px" }}>User friendly design</div>
+          <div style={{ }}>
             <ul>
               <li>
                 User-friendly quick scrolls for tags, lists, and search results,
@@ -366,10 +373,10 @@ function CPortal() {
           fontSize: "28px",
           padding: "160px 0px 0px 0px",
           boxSizing: "border-box",
-          
         }}
       >
-        The website is <span style={{color:"#6366f1"}}>live </span>within Laminaar Aviation's production enviroment.
+        The website is <span style={{ color: "#6366f1" }}>live </span>within
+        Laminaar Aviation's production enviroment.
       </div>
     </div>
   );

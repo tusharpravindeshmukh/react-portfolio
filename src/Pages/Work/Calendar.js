@@ -27,12 +27,12 @@ function GanttChart() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           React Calendar
         </div>
-        <div className="designation" style={{ fontSize: "120px" }}>
+        <div className="designation second-title" style={{ }}>
           managing meetings,
         </div>
         <div
-          className="designation"
-          style={{ fontSize: "120px", backgroundColor: "black" }}
+          className="designation second-title"
+          style={{ backgroundColor: "black" }}
         >
           events, made easy
         </div>
@@ -50,11 +50,10 @@ function GanttChart() {
         }}
       >
         <div
-          className="gantt"
+          className="gantt showcase"
           style={{
             position: "relative",
-            width: "80%",
-            height: "700px",
+         
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -81,13 +80,14 @@ function GanttChart() {
         </div>
       </div>
       <div
+        className="second-title"
         style={{
           height: "auto",
           width: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "100px",
+        
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
@@ -97,15 +97,16 @@ function GanttChart() {
         Project overview
       </div>
       <div
+       className="calendar-intro"
         style={{
           height: "auto",
           width: "100%",
-          fontSize: "25px",
+        
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
           backdropFilter: "contrast(20)",
-          padding: "0px 60px 80px 60px",
+         
           boxSizing: "border-box",
           lineHeight: "40px",
           textAlign: "center",
@@ -125,9 +126,10 @@ function GanttChart() {
         switch between different views to gain a holistic perspective of their
         events.
         <div
+          className="sub-skills"
           style={{
             height: "auto",
-            display: "flex",
+           
             width: "100%",
             gap: "20px",
             marginTop: "30px",
@@ -207,6 +209,7 @@ function GanttChart() {
       </div>
 
       <div
+        className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -217,9 +220,10 @@ function GanttChart() {
         }}
       >
         <div
+        className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+     
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -243,9 +247,10 @@ function GanttChart() {
           ></div>
         </div>
         <div
+          className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+      
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -253,12 +258,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+          
             // fontWeight:"100"
           }}
         >
-          <div style={{ color: "#6366f1" }}>Month View</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1", fontSize:"30px" }}>Month View</div>
+          <div style={{  }}>
             <ul>
               <li>
                 Provides users with a comprehensive overview of an entire
@@ -279,6 +284,7 @@ function GanttChart() {
       </div>
 
       <div
+         className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -286,13 +292,14 @@ function GanttChart() {
           padding: "0px 50px 80px 50px",
           boxSizing: "border-box",
           gap: "40px",
-          flexDirection: "row-reverse",
+         
         }}
       >
         <div
+         className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+       
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -316,9 +323,10 @@ function GanttChart() {
           ></div>
         </div>
         <div
+         className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+            height: "auto",
+        
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -326,12 +334,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+           
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Week View</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1" , fontSize:"30px"}}>Week View</div>
+          <div style={{ }}>
             <ul>
               <li>
                 Presents users with a detailed view of their schedule for the
@@ -356,6 +364,7 @@ function GanttChart() {
       </div>
 
       <div
+        className="card-container"
         style={{
           width: "100%",
           height: "auto",
@@ -366,9 +375,10 @@ function GanttChart() {
         }}
       >
         <div
+          className="card-container-first"
           style={{
             height: "352px",
-            width: "50%",
+
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -392,9 +402,10 @@ function GanttChart() {
           ></div>
         </div>
         <div
+        className="card-container-first"
           style={{
-            height: "352px",
-            width: "50%",
+         
+       
             display: "flex",
             // justifyContent: "center",
             // alignItems: "center",
@@ -402,12 +413,12 @@ function GanttChart() {
             boxSizing: "border-box",
             flexDirection: "column",
             color: "white",
-            fontSize: "30px",
+      
             fontWeight: "100",
           }}
         >
-          <div style={{ color: "#6366f1" }}>Day View</div>
-          <div style={{ fontSize: "24px" }}>
+          <div style={{ color: "#6366f1" ,fontSize:"30px"}}>Day View</div>
+          <div style={{ }}>
             <ul>
               <li>
                 Users can specify their holiday list and the application will smartly highlight them for ease.
@@ -425,13 +436,14 @@ function GanttChart() {
         </div>
       </div>
       <div
+  className="calendar-intro"
         style={{
           color: "white",
           width: "100%",
           height: "auto",
           textAlign: "center",
-          fontSize: "24px",
-          padding: "60px 120px",
+
+          
           boxSizing: "border-box",
         }}
       >

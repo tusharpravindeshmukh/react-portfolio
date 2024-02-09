@@ -49,7 +49,7 @@ function Work() {
 
 
         <Link to="/work/ganttchart">
-          <div class="cardx" style={{ height: "350px", width: "500px" }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
+          <div class="cardx" style={{  }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
             <div
               class="contentx"
               style={{
@@ -94,14 +94,14 @@ function Work() {
                   }}
                 ></h3>
                 <h3
-                  class="titlex"
+                  class="titlex exception"
                   style={{
                     height: "15px",
                     width: "50px",
                     background: "#6D2932",
                     position: "absolute",
                     top: "99px",
-                    left: "320px",
+                   
                     borderRadius: "24px",
                     boxShadow: "12px 20px 15px -3px black",
                   }}
@@ -133,14 +133,13 @@ function Work() {
                   }}
                 ></h3>
                 <h3
-                  class="titlex"
+                  class="titlex exception"
                   style={{
                     height: "15px",
                     width: "83px",
                     background: "#7a5135",
                     position: "absolute",
                     top: "232px",
-                    left: "356px",
                     borderRadius: "24px",
                     boxShadow: "12px 20px 15px -3px black",
                   }}
@@ -235,7 +234,7 @@ function Work() {
         </Link>
 
         <Link to="/work/calendar" >
-          <div  class="cardx" style={{ height: "350px", width: "500px" }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
+          <div  class="cardx" style={{ }} onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
             <div
               class="contentx"
               style={{
@@ -422,7 +421,7 @@ function Work() {
         </Link>
 
         <Link to="/work/portal" onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
-          <div class="cardx" style={{ height: "350px", width: "500px" }}>
+          <div class="cardx" style={{ }}>
             <div
               class="contentx"
               style={{
@@ -488,7 +487,7 @@ function Work() {
         </Link>
 
         <Link to="/work" onClick={() => window.scroll({top:"0", behavior:"smooth"})}>
-          <div class="cardx" style={{ height: "350px", width: "500px" }}>
+          <div class="cardx" style={{ }}>
             <div
               class="contentx"
               style={{
