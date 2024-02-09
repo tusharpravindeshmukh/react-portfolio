@@ -287,7 +287,7 @@ function App() {
                 Work
               </div>
             </Link>
-            <Link to="/blog" style={{ textDecoration: "none" }}>
+            {/* <Link to="/blog" style={{ textDecoration: "none" }}>
               <div
                 onClick={() => setMenu(false)}
                 style={{
@@ -298,7 +298,7 @@ function App() {
               >
                 Blog
               </div>
-            </Link>
+            </Link> */}
             <Link to="/about" style={{ textDecoration: "none" }}>
               <div
                 onClick={() => setMenu(false)}
