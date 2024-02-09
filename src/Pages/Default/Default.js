@@ -224,7 +224,7 @@ function Default() {
         }}
       >
         <div
-        className="testimonials-label"
+          className="testimonials-label"
           style={{
             padding: "0px 80px",
             display: "flex",
@@ -262,9 +262,9 @@ function Default() {
             }}
           ></div>
           <div
+            className="test-one"
             style={{
               height: "100%",
-              width: "30%",
               position: "relative",
             }}
           >
@@ -392,7 +392,7 @@ function Default() {
               </ul>
             </section>
           </div>
-          <div style={{ height: "100%", width: "30%" }}>
+          <div className="test-two" style={{ height: "100%", width: "30%" }}>
             <section
               style={{
                 display: "flex",

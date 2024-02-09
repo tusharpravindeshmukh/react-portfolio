@@ -1214,7 +1214,22 @@ a{text-decoration:none;}
   width: 50%;
   font-size: 24px;
 }
+
+.test-one{
+  width:30%
+}
+
+.test-two{
+  display:flex;
+}
 @media only screen and (max-width: 900px) {
+
+  .test-two{
+    display:none;
+  }
+  .test-one{
+    width:100%;
+  }
 
   .card-container-first{
     width: 100%;
