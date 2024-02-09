@@ -542,7 +542,7 @@ body {
 .cardx {
   height: 350px; 
   width:500px;
-  width: 12rem;
+  /* width: 12rem; */
   cursor: pointer;
 }
 
