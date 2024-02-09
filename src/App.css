@@ -1222,7 +1222,30 @@ a{text-decoration:none;}
 .test-two{
   display:flex;
 }
+
+.contact-wrapper{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  padding: 160px 0px 0px 21%;
+  flex-direction: column;
+  gap:80px;
+  background-color:black;
+  box-sizing:border-box;
+}
+
+.contact-subtitle{
+  font-size: 32px;
+}
 @media only screen and (max-width: 900px) {
+
+  .contact-subtitle{
+    font-size: 24px;
+  }
+
+  .contact-wrapper{
+    padding: 160px 15px 0px 15px;
+  }
 
   .skills{
     padding: 55px 70px 55px 35px;
@@ -1301,6 +1324,7 @@ a{text-decoration:none;}
 
   .second-title{
     font-size: 56px;
+    padding: 2px;
   }
 
   .main-text {

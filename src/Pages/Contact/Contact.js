@@ -12,7 +12,7 @@ function Contact() {
       }}
     >
       <div
-      className="titles"
+        className="titles"
         style={{
           height: "auto",
           width: "100%",
@@ -23,37 +23,35 @@ function Contact() {
           textAlign: "center",
         }}
       >
-        <div className="second-title" style={{ fontSize: "120px" }}>Ready to create?</div>
+        <div className="second-title" style={{}}>
+          Ready to create?
+        </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          height: "max-content",
-          width: "100%",
-          padding: "160px 0px 0px 21%",
-          flexDirection: "column",
-          gap: "80px",
-          backgroundColor:"black",
-          boxSizing:"border-box"
-        }}
-      >
+      <div className="contact-wrapper">
         <div style={{ color: "white", height: "auto", width: "100%" }}>
-          <div style={{ color: "rgb(99, 102, 241)", fontSize: "20px" }}>
+          <div
+            className="contact-title"
+            style={{ color: "rgb(99, 102, 241)", fontSize: "20px" }}
+          >
             Contact
           </div>
-          <div style={{ fontSize: "32px", marginTop: "8px" }}>
-            tusharpravindeshmukh@gmail.com
+          <div
+            className="contact-subtitle"
+            style={{ marginTop: "8px" }}
+          >
+            tusharpravindeshmukh@gmail.com <br />
+            +91-9764636574
           </div>
-          <div style={{ fontSize: "32px" }}>+91-9764636574</div>
         </div>
         <div style={{ color: "white", height: "auto", width: "100%" }}>
           <div style={{ color: "rgb(99, 102, 241)", fontSize: "20px" }}>
             Address
           </div>
-          <div style={{ fontSize: "32px", marginTop: "8px" }}>🇮🇳</div>
-          <div style={{ fontSize: "32px" }}>SBI Colony</div>
-          <div style={{ fontSize: "32px" }}>Mane Nagar</div>
-          <div style={{ fontSize: "32px" }}>Shegaon, Mahatashtra 444203</div>
+          <div className="contact-subtitle" style={{ marginTop: "8px" }}>
+            🇮🇳 <br /> SBI Colony <br />
+            Mane Nagar <br />
+            Shegaon, Mahatashtra 444203
+          </div>
         </div>
       </div>
     </div>

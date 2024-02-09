@@ -89,7 +89,7 @@ function GanttChart() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-
+          textAlign:"center",
           color: "white",
           paddingBottom: "160px",
           fontWeight: "100",
