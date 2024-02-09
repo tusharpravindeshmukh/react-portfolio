@@ -1224,6 +1224,10 @@ a{text-decoration:none;}
 }
 @media only screen and (max-width: 900px) {
 
+  .skills{
+    padding: 55px 70px 55px 35px;
+  }
+
   .test-two{
     display:none;
   }
