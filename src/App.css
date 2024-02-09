@@ -509,45 +509,7 @@ body {
   height: 100%;
   width: 70%;
 }
-@media only screen and (max-width: 900px) {
-  .header-container{
-    position: relative;
-  }
-  .hamburger {
-    display: flex;
-  }
-  .hamburger-menu {
-    display: flex;
-  }
-  .contact-button {
-    display: none;
-  }
-  .main-navbar {
-    opacity: 0;
-  }
 
-  .main-text {
-    font-size: 80px;
-  }
-  .testimonials-wrapper {
-    height: auto;
-    flex-direction: column;
-  }
-  .testimonials-label {
-    height: auto;
-    width: 100%;
-  }
-  .testimonials-main {
-    height: 600px;
-    width: 100%;
-    margin-top: 60px;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
-
-  
-}
 
 .skills{
   /* background-color:rgb(21 21 21); */
@@ -1174,4 +1136,129 @@ a{text-decoration:none;}
   animation: wavehand 2.1s 0.6s infinite;
   transform-origin: 75% 75%;
   display: inline-block;
+}
+
+
+.router-box{
+  padding-top:300px;
+  z-index:3;
+  height:auto;
+  width:100%;
+  overflow:hidden;
+}
+
+.second-title{
+  font-size: 120px;
+}
+
+.intro{
+  font-size:28px;
+  font-weight: 100px;
+  line-height: 1.4;
+}
+
+.intro-container{
+  width: 860px;
+}
+
+.intro-wrapper{
+  padding: 100px 80px;
+}
+
+.education-section{
+  width: 860px;
+  padding-top:240px;
+}
+
+.edu-title{
+  font-size: 32px;
+}
+
+.certificate-wrapper{
+  margin-top: 160px;
+}
+
+.sub-edu-title{
+  font-size:22px; 
+}
+
+.footer-title{
+  font-size:96px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .footer-title{
+    font-size: 64px;
+  }
+
+  .sub-edu-title{
+    font-size: 18px; 
+  }
+
+  .certificate-wrapper{
+    margin-top: 100px;
+  }
+  .edu-title{
+    font-size: 22px;
+  }
+
+  .intro-wrapper{
+    padding: 20px 80px;
+  }
+  .education-section{
+    width: 350px;
+    padding-top: 100px;
+  }
+  .header-container{
+    position: relative;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  .contact-button {
+    display: none;
+  }
+  .main-navbar {
+    opacity: 0;
+  }
+
+  .second-title{
+    font-size: 56px;
+  }
+
+  .main-text {
+    font-size: 80px;
+  }
+  .testimonials-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+  .testimonials-label {
+    height: auto;
+    width: 100%;
+  }
+  .testimonials-main {
+    height: 600px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  .router-box{
+    padding-top: 20px;
+  }
+
+  .intro{
+    font-size: 18px;
+  }
+  .intro-container{
+    width: 350px;
+  }
+
+  
 }

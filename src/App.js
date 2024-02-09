@@ -344,13 +344,6 @@ function App() {
 
       <div
         className="router-box"
-        style={{
-          paddingTop: "300px",
-          zIndex: "3",
-          height: "auto",
-          width: "100%",
-          overflow: "hidden",
-        }}
       >
         <Routes>
           <Route path="/react-portfolio" element={<Default />} />

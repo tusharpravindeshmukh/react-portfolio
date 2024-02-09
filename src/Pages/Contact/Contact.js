@@ -23,7 +23,7 @@ function Contact() {
           textAlign: "center",
         }}
       >
-        <div style={{ fontSize: "120px" }}>Ready to create?</div>
+        <div className="second-title" style={{ fontSize: "120px" }}>Ready to create?</div>
       </div>
       <div
         style={{

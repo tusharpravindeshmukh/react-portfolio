@@ -27,11 +27,10 @@ function About() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           Tushar Deshmukh
         </div>
-        <div className="designation" style={{ fontSize: "120px" }}>
-          software developer
-        </div>
+        <div className="designation second-title">software developer</div>
       </div>
       <div
+        className="intro-wrapper"
         style={{
           height: "auto",
           width: "100%",
@@ -39,31 +38,27 @@ function About() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          padding: "100px 80px",
+
           boxSizing: "border-box",
         }}
       >
         <div
+          className="intro-container"
           style={{
             fontSize: "30px",
             color: "white",
             textAlign: "left",
             height: "auto",
-            width: "860px",
           }}
         >
           <span style={{ fontSize: "40px" }} class="waving-hand">
             👋
           </span>
-          <span style={{ marginLeft: "10px" }}>Hey! I'm <span style={{color:"#6366f1"}}>Tushar</span>,</span>
+          <span style={{ marginLeft: "10px" }}>
+            Hey! I'm <span style={{ color: "#6366f1" }}>Tushar</span>,
+          </span>
           <div>a software developer based in Mumbai.</div>
-          <div
-            style={{
-              fontSize: "28px",
-              fontWeight: "100px",
-              lineHeight: "1.4",
-            }}
-          >
+          <div className="intro" style={{}}>
             I am a computer science grad with a passion for crafting seamless
             and captivating web experiences. Coffee fuels my code, and VS Code
             is my trusty magic wand. 🪄
@@ -81,14 +76,15 @@ function About() {
         </div>
 
         <div
+          className="education-section"
           style={{
             fontSize: "30px",
             color: "white",
 
             height: "auto",
-            width: "860px",
+
             display: "flex",
-            paddingTop: "240px",
+
             gap: "40px",
             // alignItems: "center",
             flexDirection: "column",
@@ -101,8 +97,8 @@ function About() {
               2018 - 2022
             </div>
             <div>
-              <div style={{ fontSize: "32px" }}>Amity University Mumbai</div>
-              <div style={{ color: "rgb(189, 189, 189)", fontSize: "22px" }}>
+              <div className="edu-title">Amity University Mumbai</div>
+              <div className="sub-edu-title" style={{ color: "rgb(189, 189, 189)"}}>
                 Bachelor of Technology (Computer Science Engineering)
               </div>
             </div>
@@ -112,21 +108,21 @@ function About() {
               Oct' 2022 - Present
             </div>
             <div>
-              <div style={{ fontSize: "32px" }}>
+              <div className="edu-title">
                 Laminaar Aviation Infotech India Pvt. Ltd.
               </div>
-              <div style={{ color: "rgb(189, 189, 189)", fontSize: "22px" }}>
+              <div className="sub-edu-title" style={{ color: "rgb(189, 189, 189)" }}>
                 Associate Software Engineer (React)
               </div>
             </div>
           </div>
-          <div style={{ marginTop: "160px" }}>
+          <div className="certificate-wrapper" style={{}}>
             <div style={{ fontSize: "20px", width: "240px", color: "#6366f1" }}>
               Certificate
             </div>
             <div>
-              <div style={{ fontSize: "32px" }}>Advanced React</div>
-              <div style={{ color: "rgb(189, 189, 189)", fontSize: "22px" }}>
+              <div className="edu-title">Advanced React</div>
+              <div className="sub-edu-title" style={{ color: "rgb(189, 189, 189)"}}>
                 Meta
               </div>
             </div>
@@ -136,10 +132,10 @@ function About() {
               Certificate
             </div>
             <div>
-              <div style={{ fontSize: "32px" }}>
+              <div className="edu-title">
                 Building Backend Applications with NodeJS and Express
               </div>
-              <div style={{ color: "rgb(189, 189, 189)", fontSize: "22px" }}>
+              <div className="sub-edu-title" style={{ color: "rgb(189, 189, 189)"}}>
                 IBM
               </div>
             </div>
@@ -149,8 +145,8 @@ function About() {
               Certificate
             </div>
             <div>
-              <div style={{ fontSize: "32px" }}>Building Restful APIs</div>
-              <div style={{ color: "rgb(189, 189, 189)", fontSize: "22px" }}>
+              <div className="edu-title">Building Restful APIs</div>
+              <div className="sub-edu-title" style={{ color: "rgb(189, 189, 189)"}}>
                 IBM
               </div>
             </div>

@@ -15,13 +15,14 @@ function Footer() {
       }}
     >
       <div
+        className="footer-title"
         style={{
           height: "auto",
           width: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "96px",
+         
           color: "white",
           flexDirection: "column",
           textAlign:"center"
@@ -29,12 +30,13 @@ function Footer() {
       >
         Let's create something
         <span
+          className="footer-subtitle"
           style={{
             background:
               "linear-gradient(270deg, rgb(168, 85, 247) 0%, rgb(59, 130, 246) 100%)",
             backgroundClip: "text",
             color: "transparent",
-            marginTop: "-25px",
+          
           }}
         >
           awesome

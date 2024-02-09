@@ -27,8 +27,7 @@ function Work() {
         }}
       >
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>Work</div>
-        <div style={{ fontSize: "120px" }}>Let me show</div>
-        <div style={{ fontSize: "120px" }}>you</div>
+        <div className="second-title">Let me show <br />you</div>
       </div>
 
       <div

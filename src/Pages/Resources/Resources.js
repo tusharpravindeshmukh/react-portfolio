@@ -34,8 +34,7 @@ function Resources() {
         <div style={{ fontSize: "20px", color: "rgb(99, 102, 241)" }}>
           Resources
         </div>
-        <div style={{ fontSize: "120px" }}>technologies</div>
-        <div style={{ fontSize: "120px" }}>I am proficient in</div>
+        <div className="second-title">technologies <br />I am proficient in</div>
       </div>
       <div
         style={{
