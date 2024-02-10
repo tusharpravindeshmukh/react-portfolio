@@ -5,8 +5,8 @@ body {
   scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
-.header-container{
-  position:fixed;
+.header-container {
+  position: fixed;
 }
 
 .navbar {
@@ -510,8 +510,7 @@ body {
   width: 70%;
 }
 
-
-.skills{
+.skills {
   /* background-color:rgb(21 21 21); */
   background-color: rgb(21, 21, 21);
   border-radius: 24px;
@@ -524,24 +523,9 @@ body {
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cardx {
-  height: 350px; 
-  width:500px;
+  height: 350px;
+  width: 500px;
   /* width: 12rem; */
   cursor: pointer;
 }
@@ -575,6 +559,12 @@ body {
   transform: translateZ(5rem);
 }
 
+.titlexd {
+  transform: translateZ(5rem);
+  top: 30%;
+  left: 28%;
+}
+
 .subtitlex {
   transform: translateZ(2rem);
 }
@@ -590,45 +580,9 @@ body {
   transform: translateZ(3rem);
 }
 
-a{text-decoration:none;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a {
+  text-decoration: none;
+}
 
 /* Design Inspired by one of Stefan Devai's Design on Dribble */
 
@@ -1076,38 +1030,6 @@ a{text-decoration:none;}
   transform: scaleY(24.5) scaleX(9);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes wavehand {
   0% {
     transform: rotate(0deg);
@@ -1140,175 +1062,178 @@ a{text-decoration:none;}
   display: inline-block;
 }
 
-
-.router-box{
-  padding-top:300px;
-  z-index:3;
-  height:auto;
-  width:100%;
-  overflow:hidden;
+.router-box {
+  padding-top: 300px;
+  z-index: 3;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
 }
 
-.second-title{
+.second-title {
   font-size: 120px;
 }
 
-.intro{
-  font-size:28px;
+.intro {
+  font-size: 28px;
   font-weight: 100px;
   line-height: 1.4;
 }
 
-.intro-container{
+.intro-container {
   width: 860px;
 }
 
-.intro-wrapper{
+.intro-wrapper {
   padding: 100px 80px;
 }
 
-.education-section{
+.education-section {
   width: 860px;
-  padding-top:240px;
+  padding-top: 240px;
 }
 
-.edu-title{
+.edu-title {
   font-size: 32px;
 }
 
-.certificate-wrapper{
+.certificate-wrapper {
   margin-top: 160px;
 }
 
-.sub-edu-title{
-  font-size:22px; 
+.sub-edu-title {
+  font-size: 22px;
 }
 
-.footer-title{
-  font-size:96px;
+.footer-title {
+  font-size: 96px;
 }
 
-.exception{
+.exception {
   left: 320px;
 }
 
-.showcase{
-  width:80%;
+.showcase {
+  width: 80%;
   height: 700px;
 }
 
-.calendar-intro{
+.calendar-intro {
   font-size: 25px;
-  padding:0px 60px 80px 60px;
+  padding: 0px 60px 80px 60px;
 }
 
-.sub-skills{
+.sub-skills {
   display: flex;
 }
 
-.card-container{
+.card-container {
   flex-direction: row;
 }
 
-.card-container{
+.card-container {
   flex-direction: row-reverse;
 }
 
-.card-container-first{
+.card-container-first {
   width: 50%;
   font-size: 24px;
 }
 
-.test-one{
-  width:30%
+.test-one {
+  width: 30%;
 }
 
-.test-two{
-  display:flex;
+.test-two {
+  display: flex;
 }
 
-.contact-wrapper{
+.contact-wrapper {
   display: flex;
   height: max-content;
   width: 100%;
   padding: 160px 0px 0px 21%;
   flex-direction: column;
-  gap:80px;
-  background-color:black;
-  box-sizing:border-box;
+  gap: 80px;
+  background-color: black;
+  box-sizing: border-box;
 }
 
-.contact-subtitle{
+.contact-subtitle {
   font-size: 32px;
 }
 @media only screen and (max-width: 900px) {
+  .titlexd {
+    transform: translateZ(5rem);
+    top: 30%;
+    left: 18%;
+  }
 
-  .contact-subtitle{
+  .contact-subtitle {
     font-size: 24px;
   }
 
-  .contact-wrapper{
+  .contact-wrapper {
     padding: 160px 15px 0px 15px;
   }
 
-  .skills{
+  .skills {
     padding: 55px 70px 55px 35px;
   }
 
-  .test-two{
-    display:none;
+  .test-two {
+    display: none;
   }
-  .test-one{
-    width:100%;
+  .test-one {
+    width: 100%;
   }
 
-  .card-container-first{
+  .card-container-first {
     width: 100%;
     font-size: 20px;
   }
-  .card-container{
+  .card-container {
     flex-direction: column;
   }
-  .sub-skills{
+  .sub-skills {
     display: none;
   }
-  .calendar-intro{
+  .calendar-intro {
     font-size: 20px;
-    padding:0px 15px 80px 15px;
-
+    padding: 0px 15px 80px 15px;
   }
-  .showcase{
-    width:90%;
+  .showcase {
+    width: 90%;
     height: 300px;
   }
 
-  .exception{
+  .exception {
     left: 30px;
   }
-  .cardx{
-    height: 350px; 
-    width:350px;
+  .cardx {
+    height: 350px;
+    width: 350px;
   }
 
-  .footer-title{
+  .footer-title {
     font-size: 64px;
   }
 
-  .sub-edu-title{
-    font-size: 18px; 
+  .sub-edu-title {
+    font-size: 18px;
   }
 
-  .certificate-wrapper{
+  .certificate-wrapper {
     margin-top: 100px;
   }
-  .edu-title{
+  .edu-title {
     font-size: 22px;
   }
 
-  .intro-wrapper{
+  .intro-wrapper {
     padding: 20px 80px;
   }
-  .education-section{
+  .education-section {
     width: 350px;
     padding-top: 100px;
   }
@@ -1326,7 +1251,7 @@ a{text-decoration:none;}
     opacity: 0;
   }
 
-  .second-title{
+  .second-title {
     font-size: 56px;
     padding: 2px;
   }
@@ -1350,16 +1275,14 @@ a{text-decoration:none;}
   body::-webkit-scrollbar {
     display: none;
   }
-  .router-box{
+  .router-box {
     padding-top: 230px;
   }
 
-  .intro{
+  .intro {
     font-size: 18px;
   }
-  .intro-container{
+  .intro-container {
     width: 350px;
   }
-
-  
 }

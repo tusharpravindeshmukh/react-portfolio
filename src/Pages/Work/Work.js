@@ -266,7 +266,7 @@ function Work() {
 
               <div class="frontx">
                 <h3
-                  class="titlex"
+                  class="titlexd"
                   style={{
                     height: "120px",
                     width: "220px",
@@ -275,7 +275,7 @@ function Work() {
              
                     borderRadius: "24px",
                     boxShadow: "black 11px 15px 16px -7px",
-                    top:"30%", left:"28%"
+                    
                   }}
                 ><img src={dialog} height="100%" width="100%" style={{borderRadius:"8px"}} /></h3>
               </div>

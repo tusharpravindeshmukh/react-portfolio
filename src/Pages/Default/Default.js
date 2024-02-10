@@ -163,33 +163,7 @@ function Default() {
         <div style={{ color: "white", fontSize: "32px" }}>
           dashboards & websites.
         </div>
-        <div
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "80px",
-          }}
-        >
-          <div
-            className="bard"
-            style={{
-              color: "white",
-              fontSize: "32px",
-              height: "auto",
-              width: "min-content",
-              padding: "24px 40px",
-
-              whiteSpace: "nowrap",
-
-              borderRadius: "80px",
-              fontSize: "20px",
-            }}
-          >
-            ✨ Meet Bard, a creative platform.
-          </div>
-        </div>
+    
         <div
           style={{
             width: "100%",
