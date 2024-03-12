@@ -1195,6 +1195,9 @@ a {
   .card-container {
     flex-direction: column;
   }
+  .card-container-odd{
+    flex-direction: column;
+  }
   .sub-skills {
     display: none;
   }
